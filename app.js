@@ -14,8 +14,7 @@ if (chute == numeroSecreto){
 /* DESAFIO */
 /* 1 - Dia da semana */
 let semana = prompt ('Qual é o dia da semana?');
-let diaSemana = 'sabado';
-if (diaSemana == semana){
+if (semana == "sabado" || semana == "domingo"){
     alert('Bom fim de semana');
 }else{
     alert('Boa semana');
