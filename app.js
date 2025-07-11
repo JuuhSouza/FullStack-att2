@@ -44,7 +44,7 @@ console.log(senhaLog)
 let senha = prompt('Digite sua senha');
 
 if (senha == senhaLog){
-    alert(`Seu saldo é de R$2,00`);
+    alert('Seu saldo é de R$2,00');
 }else{
     alert('Senha incorreta')
 }
