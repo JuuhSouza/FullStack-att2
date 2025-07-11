@@ -40,9 +40,15 @@ if (numero >= 100){
 }
 
 /* 4 - Saldo*/
+let senhaLog = 123456;
+console.log(senhaLog)
+let senha = prompt('Digite sua senha');
 
-let saldoConta = 100; /*Exemplo de saldo */
-alert(`Seu saldo é de R$${saldoConta}.`);
+if (senha == senhaLog){
+    alert(`Seu saldo é de R$2,00`);
+}else{
+    alert('Senha incorreta')
+}
 
 /*5 - Nome de usuario */
 let nomeUsuario = prompt('Qual seu nome?');
